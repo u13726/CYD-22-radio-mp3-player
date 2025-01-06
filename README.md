@@ -1,6 +1,6 @@
 # CYD-22-radio-mp3-player
 
-using thelimited features of a CYD 2.2 display to build another web radio.
+using the limited features of a CYD 2.2 display to build another web radio.
 
 uses:
 - the internal DAC of the esp32
