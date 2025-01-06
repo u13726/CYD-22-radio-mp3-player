@@ -6,8 +6,8 @@ uses:
 - the internal DAC of the esp32
 - the sd card for wifi  config, radio stations and mp3 files
 - on board  speaker on gpio 26
-- touch button conn3cted to gpio3
-- display to  shoz time an station / mp3
+- touch button connected to gpio3
+- display to  show time and station / mp3
 
 time
 - when online time synced with NTP
@@ -19,6 +19,12 @@ wifi credentials
 
 stations
 - fixed in source
-- specified un configg file ex Station=http://....../.....mp3
+- specified in config file ex Station=http://....../.....mp3
 
+uses libraries 
+- esp32IZS audios
+- bb_spi_lcd
+- fileconfig
+
+use of gpio3 as input  requires to be disconnected when uploading a new version
 - 
